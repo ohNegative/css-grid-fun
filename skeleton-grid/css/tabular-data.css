@@ -1,0 +1,14 @@
+/* data tables with css grid */
+
+.chart {
+  display: grid;
+  grid-template-columns: minmax(50px, 80px) 2fr 2fr 2fr 2fr;
+  border-top: 1px solid #000;
+  border-radius: 1px solid #000;
+}
+
+.chart span {
+  padding: 8px 4px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
