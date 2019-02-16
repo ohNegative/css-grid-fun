@@ -12,3 +12,20 @@
   border-left: 1px solid #000;
   border-bottom: 1px solid #000;
 }
+
+
+@media (max-width: 550px) {
+  .chart {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-top: 1px solid #000;
+    border-radius: 1px solid #000;
+  }
+
+/* added this class for readability on mobile portrait view */
+  .break {
+    margin-bottom: 20px;
+  }
+
+}
+
