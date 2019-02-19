@@ -1,0 +1,51 @@
+/* using css grid areas */
+.grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: 
+      "hd"
+      "art"
+      "asde"
+      "ftr";
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+header {
+  grid-area: hd;
+  background-color: #335878;
+  padding: 15px;
+}
+
+article {
+  grid-area: art;
+  background-color: #C06C81;
+  padding: 15px;
+}
+
+aside {
+  grid-area: asde;
+  background-color: #FFAD95;
+  padding: 15px;
+}
+
+footer {
+  grid-area: ftr;
+  background-color: #F67780;
+  padding: 15px;
+}
+
+@media (min-width: 550px) {
+  .grid {
+      grid-template-columns: 2fr 4fr;
+      grid-template-areas: 
+          "hd hd"
+          "asde art"
+          "ftr ftr"
+  }
+
+
+}
+
