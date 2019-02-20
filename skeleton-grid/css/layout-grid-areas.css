@@ -33,7 +33,7 @@ aside {
 
 footer {
   grid-area: ftr;
-  background-color: #F67780;
+  background-color: #F67780     ;
   padding: 15px;
 }
 

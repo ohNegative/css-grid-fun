@@ -1,0 +1,14 @@
+/* css grid minmax fuction */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 5px;
+}
+
+.grid div {
+  background-color: #BDAE99;
+  text-align: center;
+  padding: 1.2em;
+}
+
